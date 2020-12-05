@@ -12,6 +12,7 @@ public class TestTaskTwo{
     public void init(){
         homeWork = new HomeWork();
     }
+    // тесты к заданию 1
     @Test
     public void singleValue () {
         int[] arr = {1, 15, 20, 30, 4, 17, 6, 7, 4, 3, 5, 8, 7, 98};
@@ -36,6 +37,7 @@ public class TestTaskTwo{
         Assert.assertArrayEquals(homeWork.taskTwo(arr), arr);
     }
 
+    // тесты к заданию 2
     @Test
     public void lastInt (){
         int [] arr = {1, 4, 1, 4, 1, 4, 1, 4, 1, 4, 1, 1};
