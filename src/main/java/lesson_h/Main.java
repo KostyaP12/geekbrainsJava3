@@ -32,13 +32,6 @@ public class Main {
                 offsetY++;
             }
         }
-        for(int xTest = 0; xTest < matrix.length; xTest++){
-            for(int yTest = 0; yTest <matrix[xTest].length; yTest++){
-                System.out.print(matrix[xTest][yTest]);
-                System.out.print('|');
-            }
-            System.out.println('\n');
-        }
 
     }
 }
